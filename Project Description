@@ -1,0 +1,33 @@
+Suppose a company is advertising a product through social media (or any channel). The company wants to identify the prospective buyers 
+of the product among all the audiences so that it can approach them to turn them into the buyer of the product by giving them any discount 
+or any other type of offer. To identify the prospective buyers, let the company finds out some attributes of those people which may be 
+related to their buying decision. As a result, from the available information of all the people who were targeted during the advertisement 
+over social media, it is learned that the age and salary of the person may be related to the buying decision. So, age and salary are 
+considered in this task as the input attributes on the basis of which, it can be predicted whether the customer will buy the product or
+will not buy the product. The following steps are followed in this project:-
+  1. Identifying the problem.
+  2. Identifying the important attribute including the input attributes and the output attributes. In the output attribute, put the value
+    as 1 for buyer and 0 for non-buyer.
+  3. Fixing the training and test sizes.
+  4. Feature scaling of the values in the dataset. However, no need to scale the output attribute as it already has the values in the 
+     form of 0 and 1.
+  5. Fitting a machine learning model on the training dataset for classification. Our aim is to classify the people into two classes - the 
+     buyer class (with output 1) and the non-buyer class (with output 0).
+  6. Test the model on a new observation, i.,e., test dataset.
+  7. Analyze the fitted machine learning (classification) model through the confusion matrix. The confusion matrix shows the correct and 
+    incorrect classification of all the classes. In our case, it shows how many correct 1's are predicted by the model and how many 
+    incorrect 1's are predicted by the model and the same for 0's.
+  8. The result of classification can be visualized through a contour plot. The contour plot shows a classification line between two 
+    classes of observations and it visualizes the predicted values in each of the class. We can set colour such as one colour for 
+    output 1 and a different colour for output 0 so that true and false predictions can be visualized.
+  9. If everything goes as expected, then we assume that our model is finalized.
+  10. In this project, we will do the same task (Predicting Buyer's and Non-Buyer's) through the following models:-
+    i. Logistic Regression
+    ii. k-Nearest Neighbors (k-NN) 
+    iii. Support Vector Machine
+    iv. Naive Baye's
+    v. Decision Tree
+    vi. Random Forest
+  11. In the end, we will compare the performance of each of the above-listed models in the task of predicting the buyers and non-buyers. 
+    The model which has the best performance will be finalized for the application.
+  12. End
