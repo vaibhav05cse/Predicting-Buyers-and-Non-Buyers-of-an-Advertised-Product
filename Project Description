@@ -1,6 +1,8 @@
 Suppose a company is advertising a product through social media (or any channel). The company wants to identify the prospective buyers 
 of the product among all the audiences so that it can approach them to turn them into the buyer of the product by giving them any discount 
-or any other type of offer. To identify the prospective buyers, let the company finds out some attributes of those people which may be 
+or any other type of offer. One ore opportunity of this approach is that to start the advertisement, we can identify the more probable 
+buyers and reach those future buyers despite wasting money on non-buyers
+To identify the prospective buyers, let the company finds out some attributes of those people which may be 
 related to their buying decision. As a result, from the available information of all the people who were targeted during the advertisement 
 over social media, it is learned that the age and salary of the person may be related to the buying decision. So, age and salary are 
 considered in this task as the input attributes on the basis of which, it can be predicted whether the customer will buy the product or
